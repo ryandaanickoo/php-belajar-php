@@ -1,0 +1,301 @@
+*, body{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color: #fff; 
+}
+section#instagram{
+    position: relative;
+    width: 80%;
+    min-height: 250px;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 60px;
+    border-radius: 6px;
+    background-color: #fff;
+    box-shadow: 0 0 10px 0px rgba(17, 0, 255, 0.2)
+}
+#instagram .ig-img{
+    position: relative;
+    display: inline-flex;
+    width: 200px;
+    height: 200px;
+    border-radius: 300px;
+    float: left;
+    top: 25px;
+    margin-left: 40px;
+}
+.ig-img .photo{
+    height: 100%;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: 0px -20px;
+    border-radius: 0px;
+}
+.description1{
+    position: relative;
+    width: 350px;
+    display: inline-block;
+    float: left;
+    top: 100px;
+    margin-left: 200px;
+    font-family: '',sans-serif;
+    border-right: #efefef;
+    text-align: center;
+}
+section#wa{
+    position: relative;
+    width: 80%;
+    min-height: 250px;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 60px;
+    border-radius: 6px;
+    background-color: #fff;
+    box-shadow: 0 0 10px 0px rgba(63, 90, 74, 0.2)
+}
+#wa .wa-img{
+    position: relative;
+    display: inline-flex;
+    width: 200px;
+    height: 200px;
+    border-radius: 300px;
+    float: left;
+    top: 25px;
+    margin-left: 40px;
+}
+.wa-img .photo{
+    height: 100%;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: 0px -20px;
+    border-radius: 0px;
+}
+.description2{
+    position: relative;
+    width: 350px;
+    display: inline-block;
+    float: left;
+    top: 100px;
+    margin-left: 200px;
+    font-family: 'helvetica',sans-serif;
+    border-right: #efefef;
+    text-align: center;
+}
+section#email{
+    position: relative;
+    width: 80%;
+    min-height: 250px;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 60px;
+    border-radius: 6px;
+    background-color: #fff;
+    box-shadow: 0 0 10px 0px rgba(63, 90, 74, 0.2)
+}
+#email .email-img{
+    position: relative;
+    display: inline-block;
+    width: 200px;
+    height: 200px;
+    border-radius: 300px;
+    float: left;
+    top: 25px;
+    margin-left: 40px;
+}
+.email-img .photo{
+    height: 100%;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: 0px -20px;
+    border-radius: 0px;
+}
+.description3{
+    position: relative;
+    width: 350px;
+    display: inline-block;
+    float: left;
+    top: 100px;
+    margin-left: 200px;
+    font-family: 'helvetica',sans-serif;
+    border-right: #efefef;
+    text-align: center;
+}
+section#telp{
+    position: relative;
+    width: 80%;
+    min-height: 250px;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 60px;
+    border-radius: 6px;
+    background-color: #fff;
+    box-shadow: 0 0 10px 0px rgba(63, 90, 74, 0.2)
+}
+#telp .telp-img{
+    position: relative;
+    display: inline-flex;
+    width: 200px;
+    height: 200px;
+    border-radius: 300px;
+    float: left;
+    top: 25px;
+    margin-left: 40px;
+}
+.telp-img .photo{
+    height: 100%;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: 0px -20px;
+    border-radius: 0px;
+}
+.description4{
+    position: relative;
+    width: 350px;
+    display: inline-block;
+    float: left;
+    top: 100px;
+    margin-left: 250px;
+    font-family: 'helvetica',sans-serif;
+    border-right: #efefef;
+}
+/* responsive di layar mobile middle */
+@media(min-width:321px) and (max-width:425px){
+    section#box-profile{
+        width: 90%;
+        height: 630px;
+        margin-left: 5%;
+        margin-right: 5%;
+        margin-top: 30px;
+    }
+    .menu-mobile{
+        top: 20%;
+        right: 10%;
+        display: inline-block;
+    }
+    nav ul{
+        display: none;
+        right: 0;
+        width: 100%;
+        text-align: center;
+        top: 43px;
+        z-index: 99;
+        background: #fff;
+    }
+    nav ul li{
+        padding-left: 0px;
+        width: 100%;
+        text-align: center;
+        margin-left: 0;
+        border: none;
+    }
+    .description .button{
+        margin-right: 10px;
+        margin-left: 10px;
+    }
+    .img-profile .photo{
+        left: 35px;
+        position: relative;
+    }
+    .information{
+        top: 75px;
+        margin-left: 25px;
+        font-size: 14px;
+    }
+    section#input-form{
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+}
+/* responsive di layar mobile small */
+@media screen and (max-width:320px){
+    section#instagram{
+        width: 90%;
+        height: 630px;
+        margin-left: 5%;
+        margin-right: 5%;
+        margin-top: 30px;
+    }
+    .description1{
+        padding-left: 30px;
+        width: 90%;
+        text-align: center;
+        margin-left: 0;
+    }
+    .ig-img .photo{
+        left: 0px;
+        position: relative;
+    }
+}
+/* responsive di layar mobile small */
+@media screen and (max-width:320px){
+    section#instagram{
+        width: 90%;
+        height: 760px;
+        margin-left: 5%;
+        margin-right: 5%;
+        margin-top: 30px;
+    }
+    .description1{
+        padding-left: 20px;
+        width: 90%;
+        text-align: center;
+        margin-left: 0;
+    }
+    .ig-img .photo{
+        left: 10px;
+        position: relative;
+}
+section#wa{
+    width: 90%;
+    height: 760px;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 30px;
+}
+.description2{
+    padding-left: 20px;
+    width: 90%;
+    text-align: center;
+    margin-left: 0;
+}
+.wa-img .photo{
+    left: 10px;
+    position: relative;
+}
+section#email{
+    width: 90%;
+    height: 760px;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 30px;
+}
+.description3{
+    padding-left: 0px;
+    width: 90%;
+    text-align: center;
+    margin-left: 0;
+}
+.email-img .photo{
+    left: 10px;
+    position: relative;
+}
+section#telp{
+    width: 90%;
+    height: 760px;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 30px;
+}
+.description4{
+    padding-left: 20px;
+    width: 90%;
+    text-align: center;
+    margin-left: 0;
+}
+.telp-img .photo{
+    left: 10px;
+    position: relative;
+}
+}

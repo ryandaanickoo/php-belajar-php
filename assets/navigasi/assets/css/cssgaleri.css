@@ -1,0 +1,142 @@
+*, body{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background: #55a8fd;
+}
+section#judul{
+    position: relative;
+    width: 100%;
+    height: 80px;
+    background-color: #52dc90;
+    box-shadow: -1px -7px 20px 0px #888;
+}
+.galeri{
+    position: relative;
+    text-align: center;
+    font-family: 'Helvetic', sans-serif;
+    font-size: 60px;
+    top: 5px;
+    color: #fff;
+}
+.photo{
+    width: 250px;
+    height: 250px;
+    margin-right: 20%;
+    margin-left: 12%;
+    margin-top: 20%;
+}
+section#kotak-foto{
+    position: relative;
+    float: left;
+    width: 29%;
+    min-height: 500px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 50px;
+    border-radius: 6px;
+    background-color: #fff;
+    box-shadow: 0 0 10px 10px rgba(10, 10, 10, 0.2)
+}
+#kotak-foto .foto{
+    position: relative;
+    display: inline-flex;
+    width: 200px;
+    height: 200px;
+    border-radius: 300px;
+    float: unset;
+    top: 0px;
+    margin-left: 40px;
+}
+.description{
+    position: relative;
+    width: 380px;
+    display: inline-flex;
+    float: unset;
+    top: 30px;
+    margin-left: 0px;
+    font-family: 'helvetica',sans-serif;
+    border-right: #efefef;
+    text-align: center;
+}
+.photo1{
+    width: 250px;
+    height: 250px;
+    margin-right: 20%;
+    margin-left: 12%;
+    margin-top: 20%;
+}
+section#kotak-foto1{
+    position: relative;
+    float: left;
+    width: 29%;
+    min-height: 500px;
+    margin-left: 70px;
+    margin-right: 10px;
+    margin-top: 50px;
+    border-radius: 6px;
+    background-color: #fff;
+    box-shadow: 0 0 10px 10px rgba(10, 10, 10, 0.2)
+}
+.photo2{
+    width: 250px;
+    height: 250px;
+    margin-right: 20%;
+    margin-left: 12%;
+    margin-top: 20%;
+}
+#kotak-foto1 .foto1{
+    position: relative;
+    display: inline-flex;
+    width: 200px;
+    height: 200px;
+    border-radius: 300px;
+    float: none;
+    top: 0px;
+    margin-left: 40px;
+}
+.description1{
+    position: relative;
+    width: 380px;
+    display: inline-flex;
+    float: unset;
+    top: 30px;
+    margin-left: 0px;
+    font-family: 'helvetica',sans-serif;
+    border-right: #efefef;
+    text-align: center;
+}
+section#kotak-foto2{
+    position: relative;
+    float: right;
+    width: 29%;
+    min-height: 500px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 50px;
+    border-radius: 6px;
+    background-color: #fff;
+    box-shadow: 0 0 10px 10px rgba(10, 10, 10, 0.2)
+}
+#kotak-foto2 .foto2{
+    position: relative;
+    display: inline-flex;
+    width: 200px;
+    height: 200px;
+    border-radius: 300px;
+    float: none;
+    top: 0px;
+    margin-left: 40px;
+}
+.description2{
+    position: relative;
+    width: 380px;
+    display: inline-flex;
+    float: unset;
+    top: 30px;
+    margin-left: 0px;
+    font-family: 'helvetica',sans-serif;
+    border-right: #efefef;
+    text-align: center;
+}
